@@ -1,0 +1,7 @@
+.container{
+  width: 100% !important;
+  /* background-color: red !important; */
+  display: flex !important;
+  justify-content: center;
+  padding-top: 2em;
+}

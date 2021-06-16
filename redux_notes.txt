@@ -1,0 +1,9 @@
+we must store state in one immuatable object
+we provide our store to the entire app using Provider component from 'react-redux' 
+we access store parts using useSelector imported from 'react-redux'
+  ( const part_We_Want = useSelector(state => state.part_We_Want) )
+useSelector will automatically subscribe , unmout , update our store 
+we use useDispatch to gain access to dispatch function inside our component , dispatch would be 
+returned as a return from useDispatch
+we use connect to connect redux to class based component (imported from react-redux)
+we can also use it with functional components but useDispatch and useSelector are better 

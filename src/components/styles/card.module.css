@@ -1,0 +1,21 @@
+/* .Crd class should be triggered using mediaQuery to change it's width */
+/* .Crd{
+  width: 200px !important;
+} */ 
+
+.Container{
+  max-width: 1000px !important;
+  margin: auto !important;
+}
+
+.Image{
+  width: 100% !important;
+  height: auto !important;
+}
+
+
+.price > span{
+  font-size: 2rem !important;
+  font-weight: bold;
+  color: rgb(66, 66, 64);
+}

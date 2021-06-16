@@ -1,0 +1,50 @@
+.container{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: top !important;
+  margin-top: 5em !important;
+  /* max-height: 600px; */
+  /* background-color: red !important; */
+}
+/* i should fix overflow when description is too long */
+.overFlw{
+  /* overflow: hidden; */
+}
+.Card {
+  margin: 0 !important; 
+  border-radius: 0px !important;
+}
+
+.c_right{
+  width: 350px !important;
+}
+
+.Image{
+  height: 100% !important;
+}
+
+span{
+  font-size: 2.5rem !important;
+  font-weight: bold;
+}
+
+.btm_container{
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+.text{
+  font-size: 1.35rem;
+  font-weight: bold;
+}
+
+.inp{
+  width: 50px;
+}
+
+.avail_span{
+  display: block !important;
+  font-size: 1rem !important;
+  margin-bottom: 0.5em !important;
+}
