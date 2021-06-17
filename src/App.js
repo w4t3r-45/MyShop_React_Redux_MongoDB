@@ -13,6 +13,7 @@ import Shop from './components/shop';
 import Logout from './components/logout';
 import Login from './components/login';
 import Signup from './components/signup';
+import CurrentCart from './components/CurrentCart';
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
           </Route>
           <Route path="/shop" exact>
             <Shop />
+          </Route>
+          <Route path="/shop/current/:id" exact>
+            <CurrentCart />
           </Route>
           <Route path="/logout"  >
             <Logout />

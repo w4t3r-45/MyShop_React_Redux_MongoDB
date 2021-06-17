@@ -32,7 +32,7 @@ export default function Nav({ _ }) {
             name="Ait Chabane Said"
         />
         <Menu.Item  
-            as={Link} to="/shop/cart"
+            as={Link} to="/shop/current/:id"
             icon='cart'
             name="Cart  0"
         />
